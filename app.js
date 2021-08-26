@@ -30,8 +30,7 @@ if(operator.length == 0){
 operator = e.target.id;
 } else {
  setTimeout(() => { // call operate first only then reassign the operator
-    operator = e.target.id
-console.log(operator)},300);
+    operator = e.target.id},300);
     operate();
   }
 screen.innerText += e.target.id;
