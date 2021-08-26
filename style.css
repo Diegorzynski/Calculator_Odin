@@ -10,6 +10,21 @@ h1{
 }
 
 .screen{
+    background-color: #26282b;
+    background-image: linear-gradient(62deg, #e1edf3 0%, rgb(227, 236, 212) 100%);
+    color: black;
+    font-size: 5em;
+
+}
+
+.ops{
+    background-image: linear-gradient(to right, #FF851B, #fc8d2d); 
+    color: white;
+    margin-bottom: .1em;
+    
+}
+
+.screen{
     height: 15%;
 }
 
@@ -51,6 +66,7 @@ h1{
     min-height: 0;
     height: 100%;
     overflow: auto;
+    gap: .1em .1em;
 }
 
 .clear, .del{
@@ -62,11 +78,6 @@ h1{
     font-size: 1.5em;
     
 };
-
-.text{
-    text-shadow: 1px 1px black;
-}
-
 
 .zero, .clear, .del {
     border-right: 1px solid black;
@@ -109,6 +120,7 @@ h1{
     color: white;
 };
 
+
 .zero, .clear, .del{
     background-image: linear-gradient(to right, #FF851B, #fc8d2d);
 }
@@ -118,4 +130,9 @@ h1{
     margin: 0;
     top: 46%;
     font-size: 4em;
+};
+
+.screen{
+    background-image: grey;
 }
+
