@@ -53,6 +53,19 @@ h1{
     overflow: auto;
 }
 
+.clear, .del{
+    display: block;
+    padding: 0;
+    justify-content: center;
+    background-image: linear-gradient(to right, #001f3f, #0a3055);
+    color: white;
+    font-size: 1.5em;
+    
+};
+
+.text{
+    text-shadow: 1px 1px black;
+}
 
 
 .zero, .clear, .del {
@@ -73,10 +86,14 @@ h1{
     
 }
 
-.grid-item {
+.grid-item, .zero{
     display: block;
     padding: 0;
     justify-content: center;
+    background-image: linear-gradient(to right, #001f3f, #0a3055);
+    color: white;
+    font-size: 1.5em;
+    text-align: c;
     
 }
 
@@ -88,12 +105,17 @@ h1{
     width: 25%;
     text-align: center;
     border-top: 1px solid black;
-    
-    
+    background-image: linear-gradient(to right, #FF851B, #fc8d2d);
+    color: white;
+};
+
+.zero, .clear, .del{
+    background-image: linear-gradient(to right, #FF851B, #fc8d2d);
 }
 
-p{
+#equal{
     position: relative;
     margin: 0;
     top: 46%;
+    font-size: 4em;
 }
