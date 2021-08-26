@@ -1,0 +1,99 @@
+h1{
+    text-align: center;
+}
+#main {
+    border: 2px solid black;
+    width: 30em;
+    height: 35em;
+    margin: 0 auto;
+    position: relative;
+}
+
+.screen{
+    height: 15%;
+}
+
+.operators{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    
+}
+
+.signs{
+    width: 25%;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+}
+.signs1{
+    border-top: 1px solid black;
+    width: 25%;
+    text-align: center;
+    
+}
+
+#grid-equal{
+    height: 75%;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 75%;
+    height: 85%;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center; 
+    margin:0;
+    min-height: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+
+
+.zero, .clear, .del {
+    border-right: 1px solid black;
+    
+}
+
+.nine, .eight, .seven{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    
+}
+
+.six, .five, .four, .three, .two, .one{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+
+.grid-item {
+    display: block;
+    padding: 0;
+    justify-content: center;
+    
+}
+
+#grid-equal{
+    display: flex;
+}
+
+.equal{
+    width: 25%;
+    text-align: center;
+    border-top: 1px solid black;
+    
+    
+}
+
+p{
+    position: relative;
+    margin: 0;
+    top: 46%;
+}
